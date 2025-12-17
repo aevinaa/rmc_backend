@@ -50,7 +50,7 @@ cd rmc_project
 ### 2️⃣ Create & activate virtual environment
 python3 -m venv venv
 source venv/bin/activate        # macOS / Linux
-# venv\Scripts\activate.bat     # Windows
+venv\Scripts\activate.bat     # Windows
 
 ###3️⃣ Install dependencies
 pip install django djangorestframework
